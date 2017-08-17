@@ -322,4 +322,8 @@ recipes.addShaped(<ExtraUtilities:colorWoodPlanks:15>*7, [[<ore:plankWood>, <ore
 #Sacrificial Orb/Knife Achievement Fix
 recipes.addShapeless(<AWWayofTime:sacrificialKnife>, [<AWWayofTime:sacrificialKnife>]);
 
+#Mining Dim Tool
+recipes.remove(<Aroma1997sDimension:portalIgniter>);
+recipes.addShaped(<Aroma1997sDimension:portalIgniter>, [[null, <minecraft:flint_and_steel>, null], [<minecraft:golden_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:golden_pickaxe>], [<minecraft:diamond_shovel>, <minecraft:iron_pickaxe>, <minecraft:diamond_shovel>]]);
+
 print("Initialized 'MinecraftGettingStarted.zs'");

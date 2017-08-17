@@ -1875,6 +1875,9 @@ appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock:0, Certus Quartz Pillar Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Certus Quartz Pillar Slabs
+Aroma1997sDimension:aromicPortal, Mining Portal
+Aroma1997sDimension:portalFrame, Portal Frame
+Aroma1997sDimension:stickyOre, Sticky Ore
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -7149,7 +7152,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Emission Decompiler)
+ExtraUtilities:endConstructor:0, QED (Quantum Ender Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -8113,45 +8116,45 @@ ExtraTiC:moltenConstantan, Molten Constantan
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
-ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
+ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -8200,6 +8203,9 @@ HatStand:hats.addon.hatstands.block, Hat Stand
 headcrumbs:betterSkull, tile.headcrumbs.betterSkull.name
 headcrumbs:player, tile.headcrumbs.player.name
 headcrumbs:empty, tile.headcrumbs.empty.name
+HardcoreQuesting:item_barrel, Quest Delivery System
+HardcoreQuesting:quest_tracker, Quest Tracking System
+HardcoreQuesting:quest_portal, tile.hqm:quest_portal.name
 immersiveintegration:extendablePost, Extendable Wooden Post
 immersiveintegration:steelTrapdoor, Steel Trapdoor
 immersiveintegration:steelDecoration:0, Coke Oven Wall
@@ -8226,6 +8232,18 @@ IronChest:BlockIronChest:4, Silver Chest
 IronChest:BlockIronChest:5, Crystal Chest
 IronChest:BlockIronChest:6, Obsidian Chest
 IronChest:BlockIronChest:7, DirtChest 9000!
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 JABBA:barrel, Better Barrel
 LogisticsPipes:logisticsSolidBlock:0, Soldering Station
 LogisticsPipes:logisticsSolidBlock:1, Logistics Power Junction
@@ -8239,18 +8257,6 @@ LogisticsPipes:logisticsPipeBlock, LogisticsPipes Pipe Block.name
 Mystcraft:BlockInkMixer, Ink Mixer
 Mystcraft:BlockBookBinder, Book Binder
 Mystcraft:BlockBookReceptacle, Book Receptacle
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 Mystcraft:BlockBookstand, Bookstand
 Mystcraft:BlockLectern, Lectern
 Mystcraft:BlockDecay:0, Black Decay
@@ -8380,12 +8386,12 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
-OpenPeripheral:ticketmachine, Ticket Machine
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
 OpenPeripheral:peripheralproxy, Peripheral Proxy
+OpenPeripheral:ticketmachine, Ticket Machine
 rftools:machineFrame, Machine Frame
 rftools:machineBase, Machine Base
 rftools:rfMonitorBlock, RF Monitor
@@ -9351,6 +9357,7 @@ witchery:cbuttonstone, Button
 ForgeRelocation:relocation.blockmovingrow:0, tile.relocation.blockmovingrow|0.name
 MCFrames:mcframes.motor:0, Debug Frame Motor
 MCFrames:mcframes.frame, Frame
+Aroma1997Core:wrench, Aromic Hammer
 IC2:itemHarz, ic2.itemHarz.name
 IC2:itemRubber, ic2.itemRubber.name
 IC2:itemFluidCell, ic2.itemFluidCell.name
@@ -9890,6 +9897,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluix Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Pillar Slabs
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Portal Frame
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sticky Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Blood Rune
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Augmented Capacity
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Dislocation
@@ -11882,11 +11891,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -12245,6 +12254,8 @@ appliedenergistics2:item.ItemMultiPart:220, ME Storage Bus
 appliedenergistics2:item.ItemMultiPart:400, ME Storage Monitor
 appliedenergistics2:item.ItemMultiPart:380, ME Terminal
 appliedenergistics2:item.ItemMultiPart:80, ME Toggle Bus
+Aroma1997sDimension:portalIgniter, Mining Multitool
+Aroma1997sDimension:dimensionChanger, DimensionChanger
 AWWayofTime:weakBloodOrb, Weak Blood Orb
 AWWayofTime:apprenticeBloodOrb, Apprentice Blood Orb
 AWWayofTime:magicianBloodOrb, Magician's Blood Orb
@@ -19719,8 +19730,10 @@ gendustry:HoneyComb:13337, Infinity Comb
 gendustry:HoneyComb:21, Yellow Colored Comb
 gendustry:HoneyComb:13, Brown Colored Comb
 gendustry:HoneyComb:17, Light Gray Colored Comb
+gendustry:HoneyComb:13338, Draconium Comb
 gendustry:HoneyComb:22, Light Blue Colored Comb
 gendustry:HoneyComb:12, Green Colored Comb
+gendustry:HoneyComb:13339, Electrotine Comb
 gendustry:HoneyComb:18, Gray Colored Comb
 gendustry:HoneyComb:16, Cyan Colored Comb
 gendustry:HoneyComb:11, Red Colored Comb
@@ -19780,6 +19793,18 @@ GraviSuite:itemSimpleItem:4, Magnetron
 GraviSuite:itemSimpleItem:5, Vajra Core
 GraviSuite:itemSimpleItem:6, Engine Booster
 guideapi:ItemLostPage:0, Lost Page
+HardcoreQuesting:quest_book, item.hqm:quest_book.name
+HardcoreQuesting:hearts:0, Quarter of a heart
+HardcoreQuesting:hearts:1, Half a heart
+HardcoreQuesting:hearts:2, Three quarters of a heart
+HardcoreQuesting:hearts:3, Full heart
+HardcoreQuesting:hearts:4, Rotten heart
+HardcoreQuesting:bags:0, Reward Bag
+HardcoreQuesting:bags:1, Reward Bag
+HardcoreQuesting:bags:2, Reward Bag
+HardcoreQuesting:bags:3, Reward Bag
+HardcoreQuesting:bags:4, Reward Bag
+HardcoreQuesting:hqmInvalidItem, Invalid Item
 immersiveintegration:iiWireCoil:0, Redstone Wire Coil
 immersiveintegration:capacitorBox:0, LV Capacitor in a Box
 immersiveintegration:capacitorBox:0, LV Capacitor in a Box
@@ -20867,6 +20892,9 @@ ThermalDynamics:cover:0, Chiseled Certus Quartz Slabs Cover
 ThermalDynamics:cover:0, Chiseled Certus Quartz Slabs Cover
 ThermalDynamics:cover:0, Certus Quartz Pillar Slabs Cover
 ThermalDynamics:cover:0, Certus Quartz Pillar Slabs Cover
+ThermalDynamics:cover:0, Mining Portal Cover
+ThermalDynamics:cover:0, Portal Frame Cover
+ThermalDynamics:cover:0, Sticky Ore Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -24558,25 +24586,25 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Stair of Travel Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
 ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Paving Stair of Travel Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
