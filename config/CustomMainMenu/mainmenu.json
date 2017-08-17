@@ -166,24 +166,19 @@
                 "type" : "quit"
             }
         },
-		
-        "shop":
+        "creeperhost":
         {
             "text" : "",
             "posX" : 105,
             "posY" : 50,
-			"tooltip": "FTB Shop",
             "width" : 20,
-			"imageWidth": "40",
-			"imageHeight": "40",
             "height" : 20,
 			"alignment" : "center",
-			"texture" : "mainmenu:shop.png",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "http://society6.com/feedthebeast"
-            }
+			"tooltip": "Get a Server Today!",
+			"texture" : "mainmenu:creeperhost.png",
+			"imageWidth": "40",
+			"imageHeight": "40",
+            "wrappedButton" : 30051988
         },		
         "language":
         {

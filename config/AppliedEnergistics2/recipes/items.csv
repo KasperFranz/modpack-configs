@@ -3755,18 +3755,16 @@ BuildCraft|Core:engineBlock:2, Combustion Engine
 BuildCraft|Core:engineBlock:3, Creative Engine
 BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
-BuildCraft|Builders:machineBlock, Quarry
-BuildCraft|Builders:fillerBlock, Filler
-BuildCraft|Builders:frameBlock, Frame
-BuildCraft|Builders:builderBlock, Builder Block
-BuildCraft|Builders:architectBlock, Architect Table
-BuildCraft|Builders:libraryBlock, Electronic Library
-BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
 BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
-BuildCraft|Energy:blockOil, Oil
-BuildCraft|Energy:blockFuel, Fuel
-BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
+BuildCraft|Factory:miningWellBlock, Mining Well
+BuildCraft|Factory:plainPipeBlock, Mining Pipe
+BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
+BuildCraft|Factory:tankBlock, Tank
+BuildCraft|Factory:pumpBlock, Pump
+BuildCraft|Factory:floodGateBlock, Flood Gate
+BuildCraft|Factory:refineryBlock, Refinery
+BuildCraft|Factory:blockHopper, Chute
 BuildCraft|Silicon:laserBlock, Laser
 BuildCraft|Silicon:laserTableBlock:0, Assembly Table
 BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
@@ -3777,14 +3775,16 @@ BuildCraft|Silicon:laserTableBlock:5, Stamping Table
 BuildCraft|Silicon:packagerBlock, Recipe Packager
 BuildCraft|Robotics:zonePlan, Zone Planner
 BuildCraft|Robotics:requester, Requester
-BuildCraft|Factory:miningWellBlock, Mining Well
-BuildCraft|Factory:plainPipeBlock, Mining Pipe
-BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
-BuildCraft|Factory:tankBlock, Tank
-BuildCraft|Factory:pumpBlock, Pump
-BuildCraft|Factory:floodGateBlock, Flood Gate
-BuildCraft|Factory:refineryBlock, Refinery
-BuildCraft|Factory:blockHopper, Chute
+BuildCraft|Energy:blockOil, Oil
+BuildCraft|Energy:blockFuel, Fuel
+BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
+BuildCraft|Builders:machineBlock, Quarry
+BuildCraft|Builders:fillerBlock, Filler
+BuildCraft|Builders:frameBlock, Frame
+BuildCraft|Builders:builderBlock, Builder Block
+BuildCraft|Builders:architectBlock, Architect Table
+BuildCraft|Builders:libraryBlock, Electronic Library
+BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 Railcraft:fluid.creosote, Creosote
 Railcraft:fluid.steam, Steam
 Railcraft:residual.heat, Residual Heat
@@ -5825,7 +5825,7 @@ RedstoneArsenal:Storage:1, Flux Crystal Block
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Doohicky)
+ExtraUtilities:endConstructor:0, QED (Quail Eating Ducks)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6627,45 +6627,45 @@ extracells:ecbaseblock:0, ME Fluid Interface
 extracells:ecbaseblock:1, ME Fluid Auto Filler
 extracells:hardmedrive, Blast resistant ME Drive [WIP]
 extracells:vibrantchamberfluid, Fluid Vibration Chamber
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
+ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
-ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:forcefield, Forcefield
 ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
 ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -6710,6 +6710,9 @@ gendustry:Extractor, DNA Extractor
 gendustry:Transposer, Genetic Transposer
 gendustry:Replicator, Genetic Replicator
 GraviSuite:BlockRelocatorPortal, Unnamed Block, report to mod author.
+HardcoreQuesting:item_barrel, Quest Delivery System
+HardcoreQuesting:quest_tracker, Quest Tracking System
+HardcoreQuesting:quest_portal, tile.hqm:quest_portal.name
 immersiveintegration:extendablePost, Extendable Wooden Post
 immersiveintegration:steelTrapdoor, Steel Trapdoor
 immersiveintegration:steelDecoration:0, Coke Oven Wall
@@ -6834,11 +6837,11 @@ OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
 OpenPeripheral:ticketmachine, Ticket Machine
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
-OpenPeripheral:peripheralproxy, Peripheral Proxy
 harvestcraft:cuttingboard, Cutting Board
 harvestcraft:pot, Pot
 harvestcraft:beehive, Beehive
@@ -7866,9 +7869,6 @@ witchery:force, Solid
 witchery:tormentstone, Torment Stone
 witchery:barrier, Barrier
 witchery:leechchest, Leech Chest
-witchery:altar, Altar
-witchery:kettle, Kettle
-witchery:poppetshelf, Poppet Shelf
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7881,6 +7881,9 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+witchery:altar, Altar
+witchery:kettle, Kettle
+witchery:poppetshelf, Poppet Shelf
 witchery:dreamcatcher, Dream Weaver
 witchery:crystalball, Crystal Ball
 witchery:spiritportal, Spirit Portal
@@ -10254,11 +10257,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Dirt
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Flint
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Netherrack
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -12636,8 +12639,6 @@ BuildCraft|Core:ironGearItem, Iron Gear
 BuildCraft|Core:goldGearItem, Gold Gear
 BuildCraft|Core:diamondGearItem, Diamond Gear
 BuildCraft|Core:paintbrush, Paintbrush
-BuildCraft|Builders:templateItem, Template
-BuildCraft|Builders:blueprintItem, Blueprint
 BuildCraft|Transport:pipeWaterproof, Pipe Sealant
 BuildCraft|Transport:item.buildcraftPipe.pipeitemswood:0, Wooden Transport Pipe
 BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald:0, Emerald Transport Pipe
@@ -12718,8 +12719,6 @@ BuildCraft|Transport:pipeLens:32, Lens (Clear)
 BuildCraft|Transport:pipeLens:33, Filter (Clear)
 BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
 BuildCraft|Transport:gateCopier, Gate Copier
-BuildCraft|Energy:bucketOil, Oil Bucket
-BuildCraft|Energy:bucketFuel, Fuel Bucket
 BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
 BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
 BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
@@ -12733,6 +12732,10 @@ BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
 BuildCraft|Robotics:robot, Robot
 BuildCraft|Robotics:robotStation, item.robotStation.name
 BuildCraft|Robotics:redstone_board, Redstone Board
+BuildCraft|Energy:bucketOil, Oil Bucket
+BuildCraft|Energy:bucketFuel, Fuel Bucket
+BuildCraft|Builders:templateItem, Template
+BuildCraft|Builders:blueprintItem, Blueprint
 BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis:0, Apiarist's Pipe
 Railcraft:fluid.creosote.bucket, Creosote Bucket
 Railcraft:fluid.creosote.bottle, Creosote Bottle
@@ -12956,7 +12959,7 @@ props:props:79, Pumpkin 3
 props:props:80, Door Barricade
 props:props:81, Rubik's Cube Shuffled
 props:props:82, Picnic Table Left
-props:props:83, Picnic Table Centre
+props:props:83, Picnic Table Center
 props:props:84, Picnic Table Right
 props:props:85, Gravestone 1
 props:props:86, Gravestone 2
@@ -12974,7 +12977,7 @@ props:props:97, Spider Candle
 props:props:98, Stuffed Spider
 props:props:99, Beer Keg
 props:props:100, Large Beer Keg
-props:props:101, Horrizontal Barrel
+props:props:101, Horizontal Barrel
 props:props:102, Big Anchor
 props:props:103, Anchor
 props:props:104, Luggage
@@ -13134,7 +13137,7 @@ props:props:257, Table Lamp Purple
 props:props:258, Table Lamp Blue
 props:props:259, Table Lamp LightBlue
 props:props:260, Cheese Wheel
-props:props:261, Wheel Barrel
+props:props:261, Wheelbarrow
 props:props:262, Dart Board
 props:props:263, Chalk Board
 props:props:264, Perfume Blue
@@ -13340,7 +13343,7 @@ props:props:467, Pew Right
 props:props:468, Pew Middle
 props:props:469, Pew Left
 props:props:470, Kneeler
-props:props:471, Old TV
+props:props:471, TV Old
 props:props:472, Fire Alarm
 props:props:473, Table Clock
 props:props:474, Laptop
@@ -13348,10 +13351,10 @@ props:props:475, Credenza Right
 props:props:476, Credenza Left
 props:props:477, Cart 1
 props:props:478, Cart 2
-props:props:479, Wheelbarrel Coal
-props:props:480, Wheelbarrel Feed
-props:props:481, Wheelbarrel Rocks
-props:props:482, Wheelbarrel Jugs
+props:props:479, Wheelbarrow Coal
+props:props:480, Wheelbarrow Feed
+props:props:481, Wheelbarrow Rocks
+props:props:482, Wheelbarrow Jugs
 props:props:483, Wooden Table 2
 props:props:484, Stock
 props:props:485, Cannon
@@ -13361,7 +13364,7 @@ props:props:488, Small Coin Pile Gold
 props:props:489, Small Coin Pile Silver
 props:props:490, Patron Doll ChJees
 props:props:491, Patron Doll Xaw4
-props:props:492, JourneyMap Wall Sconce
+props:props:492, Journeymap Wall Sconce
 props:props:493, Skelleton 1
 props:props:494, Skelleton 2
 props:props:495, Skelleton 3
@@ -13381,7 +13384,7 @@ props:props:508, Decobench
 props:props:509, Dresser
 props:props:510, Sideboard
 props:props:511, Wardrobe
-props:props:512, BurialUrn
+props:props:512, Burial Urn
 props:props:513, Fishing net
 props:props:514, Anatomical Doll
 props:props:515, Dungeon Skeleton 1
@@ -13390,7 +13393,7 @@ props:props:517, Dungeon Skeleton 3
 props:props:518, Trophy Zombie
 props:props:519, Trophy Deer
 props:props:520, Trophy Bear
-props:props:521, birdcage
+props:props:521, Birdcage
 props:props:522, PotatoPile
 props:props:523, CarrotPile
 props:props:524, Milk Jug
@@ -13407,7 +13410,7 @@ props:props:534, Patron Doll Gellegbs
 props:props:535, Dungeon Skeleton 4
 props:props:536, Hanging Pheasants
 props:props:537, White Hammock
-props:props:538, BookandQuill
+props:props:538, Book and Quill
 props:props:539, Lectern
 props:props:540, FishHanging
 props:props:541, Minotaur Doll
@@ -13493,7 +13496,7 @@ props:props:621, Bottom Cabinet Corner Left Dark
 props:props:622, Broom Cabinet
 props:props:623, Top Cabinet Glass Dark
 props:props:624, Top Cabinet Dark
-props:props:625, Water pump
+props:props:625, Water Pump
 props:props:626, Fridge Large
 props:props:627, Fridge Small
 props:props:628, Dish Rack
@@ -13711,7 +13714,6 @@ props:props:840, Sack Salt
 props:props:841, Sack Tornado Spice
 props:props:842, Sack Green Tea
 props:props:843, Sack Taelnia Spice
-props:props:844, Chain Link Fence
 props:props:845, Cash Register
 props:props:846, Garden Swing Left
 props:props:847, Garden Swing Left Brown
@@ -13782,15 +13784,6 @@ props:props:912, Mexican Cupboard Cyan
 props:props:913, Mexican Cupboard Pink
 props:props:914, Mexican Cupboard Blue
 props:props:915, Mexican Cupboard Purple
-props:props:916, Mexican Shelf
-props:props:917, Mexican Shelf Fuchisa
-props:props:918, Mexican Shelf Orange
-props:props:919, Mexican Shelf Green
-props:props:920, Mexican Shelf Red
-props:props:921, Mexican Shelf Cyan
-props:props:922, Mexican Shelf Pink
-props:props:923, Mexican Shelf Blue
-props:props:924, Mexican Shelf Purple
 props:props:925, Hanging Peppers
 props:props:926, Star Pinata
 props:props:927, Joker Star Pinata
@@ -13801,7 +13794,6 @@ props:props:931, Patron Doll Misty Striker
 props:props:932, Patron Doll The Great Orator
 props:props:933, Patron Doll tuglowz
 props:props:934, Patron Doll Strange_Penguin
-props:props:935, Curtains
 props:props:951, Beach Chair
 props:props:952, Beach Chair Brown
 props:props:953, Beach Chair Orange
@@ -13835,6 +13827,456 @@ props:props:980, Beach Umbrella Yellow
 props:props:981, Beach Umbrella Coral
 props:props:982, Beach Umbrella Cyan
 props:props:983, Cooler
+props:props:984, Cactus Chair
+props:props:985, Lamp Post 1
+props:props:986, Lamp Post 2
+props:props:987, Hillhouse Chair Brown
+props:props:988, Hillhouse Chair Orange
+props:props:989, Hillhouse Chair Purple
+props:props:990, Hillhouse Chair Blue
+props:props:991, Hillhouse Chair Lime
+props:props:992, Hillhouse Chair Green
+props:props:993, Hillhouse Chair Fuchsia
+props:props:994, Hillhouse Chair Light Blue
+props:props:995, Hillhouse Chair Razzle
+props:props:996, Hillhouse Chair Red
+props:props:997, Hillhouse Chair Pink
+props:props:998, Hillhouse Chair Black
+props:props:999, Hillhouse Chair Yellow
+props:props:1000, Hillhouse Chair Coral
+props:props:1001, Hillhouse Chair Cyan
+props:props:1002, Ant Chair Brown
+props:props:1003, Ant Chair Orange
+props:props:1004, Ant Chair Purple
+props:props:1005, Ant Chair Blue
+props:props:1006, Ant Chair Lime
+props:props:1007, Ant Chair Green
+props:props:1008, Ant Chair Fuchsia
+props:props:1009, Ant Chair Light Blue
+props:props:1010, Ant Chair Razzle
+props:props:1011, Ant Chair Red
+props:props:1012, Ant Chair Pink
+props:props:1013, Ant Chair Black
+props:props:1014, Ant Chair Yellow
+props:props:1015, Ant Chair Coral
+props:props:1016, Ant Chair Cyan
+props:props:1017, Wassily Chair Brown
+props:props:1018, Wassily Chair Orange
+props:props:1019, Wassily Chair Purple
+props:props:1020, Wassily Chair Blue
+props:props:1021, Wassily Chair Lime
+props:props:1022, Wassily Chair Green
+props:props:1023, Wassily Chair Fuchsia
+props:props:1024, Wassily Chair Light Blue
+props:props:1025, Wassily Chair Razzle
+props:props:1026, Wassily Chair Red
+props:props:1027, Wassily Chair Pink
+props:props:1028, Wassily Chair Black
+props:props:1029, Wassily Chair Yellow
+props:props:1030, Wassily Chair Coral
+props:props:1031, Wassily Chair Cyan
+props:props:1032, Clawfoot Tub
+props:props:1033, Lounge Chair
+props:props:1035, CandleHolder
+props:props:1036, AlchemyTable
+props:props:1037, ArcheryTarget
+props:props:1038, Cow Skull
+props:props:1039, Patron Doll sarsum33
+props:props:1040, Fallen Soldier Tribute
+props:props:1041, Banana Split
+props:props:1042, HotTub
+props:props:1043, Fire Pit
+props:props:1044, Adventsljusstake White
+props:props:1045, Adventsljusstake Red
+props:props:1046, Adventsljusstake Black
+props:props:1047, Nativity Scene
+props:props:1048, Patron Doll Crueldog
+props:props:1049, White Mantel
+props:props:1050, Wood Mantel Light
+props:props:1051, Wood Mantel Medium
+props:props:1052, Wood Mantel Dark
+props:props:1053, Tinsel 1
+props:props:1054, Tinsel with Baubles Red
+props:props:1055, Tinsel with Baubles Yellow
+props:props:1056, Tinsel with Baubles Blue
+props:props:1057, Stocking 1
+props:props:1058, Stocking 2
+props:props:1059, Chocolate Chip Cookie Plate
+props:props:1060, Sugar Cookie Plate
+props:props:1061, Snickerdoodle Cookie Plate
+props:props:1062, Raisin Cookie Plate
+props:props:1063, Cherry Pie
+props:props:1064, Key Lime Pie
+props:props:1065, Blueberry Pie
+props:props:1066, Apple Pie
+props:props:1067, Baking Table
+props:props:1068, Menorah
+props:props:1069, Pool Chair
+props:props:1070, Pulpit
+props:props:1071, Fireplace tools
+props:props:1072, Urinal
+props:props:1073, Modern Toilet
+props:props:1074, Umbrella Basket
+props:props:1075, Video Camera
+props:props:1076, Drum Set
+props:props:1077, Drum Set Dark Blue
+props:props:1078, Drum Set Orange
+props:props:1079, Drum Set Purple
+props:props:1080, Drum Set Blue
+props:props:1081, Drum Set Lime
+props:props:1082, Drum Set Green
+props:props:1083, Drum Set Fuchsia
+props:props:1084, Drum Set Light Blue
+props:props:1085, DrumSet Razzle
+props:props:1086, Drum Set Red
+props:props:1087, DrumSet Pink
+props:props:1088, Drum Set Black
+props:props:1089, Drum Set Yellow
+props:props:1090, Drum Set Coral
+props:props:1091, Drum Set Cyan
+props:props:1092, Drum Set Gray
+props:props:1093, Bar Stool 1
+props:props:1094, Bar Stool 1 Dark Blue
+props:props:1095, Bar Stool 1 Orange
+props:props:1096, Bar Stool 1 Purple
+props:props:1097, Bar Stool 1 Blue
+props:props:1098, Bar Stool 1 Lime
+props:props:1099, Bar Stool 1 Green
+props:props:1100, Bar Stool 1 Fuchsia
+props:props:1101, Bar Stool 1 Light Blue
+props:props:1102, Bar Stool 1 Razzle
+props:props:1103, Bar Stool 1 Red
+props:props:1104, Bar Stool 1 Pink
+props:props:1105, Bar Stool 1 Black
+props:props:1106, Bar Stool 1 Yellow
+props:props:1107, Bar Stool 1 Coral
+props:props:1108, Bar Stool 1 Cyan
+props:props:1109, Bar Stool 1 Gray
+props:props:1110, Dryer
+props:props:1111, Washer
+props:props:1112, Small Flat TV
+props:props:1113, Medium Flat TV
+props:props:1114, Large Flat TV
+props:props:1115, Polaroid 1000
+props:props:1116, Billiard Rack
+props:props:1117, Roadwork Barrier
+props:props:1118, Concrete Barrier
+props:props:1119, Shopping Cart
+props:props:1120, Trash Bin
+props:props:1121, Trash Bin Blue
+props:props:1122, Trash Bin Green
+props:props:1123, Trash Bin Yellow
+props:props:1124, Metal Desk
+props:props:1125, Wood Desk 2
+props:props:1126, Dumpster
+props:props:1127, Car Park Barrier
+props:props:1128, Lavabo
+props:props:1129, Road cone
+props:props:1130, Table Lamp 2
+props:props:1131, Table Lamp 2 Dark Blue
+props:props:1132, Table Lamp 2 Orange
+props:props:1133, Table Lamp 2 Purple
+props:props:1134, Table Lamp 2 Blue
+props:props:1135, Table Lamp 2 Lime
+props:props:1136, Table Lamp 2 Green
+props:props:1137, Table Lamp 2 Fuchsia
+props:props:1138, Table Lamp 2 Light Blue
+props:props:1139, Table Lamp 2 Razzle
+props:props:1140, Table Lamp 2 Red
+props:props:1141, Table Lamp 2 Pink
+props:props:1142, Table Lamp 2 Black
+props:props:1143, Table Lamp 2 Yellow
+props:props:1144, Table Lamp 2 Coral
+props:props:1145, Table Lamp 2 Cyan
+props:props:1146, Table Lamp 2 Gray
+props:props:1147, Office Chair 1
+props:props:1148, Office Chair 1 Dark Blue
+props:props:1149, Office Chair 1 Orange
+props:props:1150, Office Chair 1 Purple
+props:props:1151, Office Chair 1 Blue
+props:props:1152, Office Chair 1 Lime
+props:props:1153, Office Chair 1 Green
+props:props:1154, Office Chair 1 Fuchsia
+props:props:1155, Office Chair 1 Light Blue
+props:props:1156, Office Chair 1 Razzle
+props:props:1157, Office Chair 1 Red
+props:props:1158, Office Chair 1 Pink
+props:props:1159, Office Chair 1 Black
+props:props:1160, Office Chair 1 Yellow
+props:props:1161, Office Chair 1 Coral
+props:props:1162, Office Chair 1 Cyan
+props:props:1163, Office Chair 1 Gray
+props:props:1164, Office Chair 2
+props:props:1165, Office Chair 2 Dark Blue
+props:props:1166, Office Chair 2 Orange
+props:props:1167, Office Chair 2 Purple
+props:props:1168, Office Chair 2 Blue
+props:props:1169, Office Chair 2 Lime
+props:props:1170, Office Chair 2 Green
+props:props:1171, Office Chair 2 Fuchsia
+props:props:1172, Office Chair 2 Light Blue
+props:props:1173, Office Chair 2 Razzle
+props:props:1174, Office Chair 2 Red
+props:props:1175, Office Chair 2 Pink
+props:props:1176, Office Chair 2 Black
+props:props:1177, Office Chair 2 Yellow
+props:props:1178, Office Chair 2 Coral
+props:props:1179, Office Chair 2 Cyan
+props:props:1180, Office Chair 2 Gray
+props:props:1181, Desk Lamp
+props:props:1182, Desk Lamp Dark Blue
+props:props:1183, Desk Lamp Orange
+props:props:1184, Desk Lamp Purple
+props:props:1185, Desk Lamp Blue
+props:props:1186, Desk Lamp Lime
+props:props:1187, Desk Lamp Green
+props:props:1188, Desk Lamp Fuchsia
+props:props:1189, Desk Lamp Light Blue
+props:props:1190, Desk Lamp Razzle
+props:props:1191, Desk Lamp Red
+props:props:1192, Desk Lamp Pink
+props:props:1193, Desk Lamp Black
+props:props:1194, Desk Lamp Yellow
+props:props:1195, Desk Lamp Coral
+props:props:1196, Desk Lamp Cyan
+props:props:1197, Desk Lamp Gray
+props:props:1198, Door 1 Left
+props:props:1199, Door 1 Right
+props:props:1200, Door 1 Right Medium
+props:props:1201, Door 1 Left Medium
+props:props:1202, Door 1 Left Dark
+props:props:1203, Door 1 Right Dark
+props:props:1204, Door 2 Left Light
+props:props:1205, Door 2 Right Light
+props:props:1206, Door 2 Left Medium
+props:props:1207, Door 2 Right Medium
+props:props:1208, Door 2 Left Dark
+props:props:1209, Door 2 Right Dark
+props:props:1210, Door 3 Left
+props:props:1211, Door 3 Right
+props:props:1212, Hanging Lamp
+props:props:1213, Cogniac Bottle
+props:props:1214, Basket with Baguettes
+props:props:1215, Market Register
+props:props:1216, Corkboard
+props:props:1217, Door 4 Left
+props:props:1218, Door 4 Left Dark Blue
+props:props:1219, Door 4 Left Orange
+props:props:1220, Door 4 Left Purple
+props:props:1221, Door 4 Left Blue
+props:props:1222, Door 4 Left Lime
+props:props:1223, Door 4 Left Green
+props:props:1224, Door 4 Left Fuchsia
+props:props:1225, Door 4 Left Light Blue
+props:props:1226, Door 4 Left Razzle
+props:props:1227, Door 4 Left Red
+props:props:1228, Door 4 Left Pink
+props:props:1229, Door 4 Left Black
+props:props:1230, Door 4 Left Yellow
+props:props:1231, Door 4 Left Coral
+props:props:1232, Door 4 Left Cyan
+props:props:1233, Door 4 Left Gray
+props:props:1234, Door 4 Right
+props:props:1235, Door 4 Right Dark Blue
+props:props:1236, Door 4 Right Orange
+props:props:1237, Door 4 Right Purple
+props:props:1238, Door 4 Right Blue
+props:props:1239, Door 4 Right Lime
+props:props:1240, Door 4 Right Green
+props:props:1241, Door 4 Right Fuchsia
+props:props:1242, Door 4 Right Light Blue
+props:props:1243, Door 4 Right Razzle
+props:props:1244, Door 4 Right Red
+props:props:1245, Door 4 Right Pink
+props:props:1246, Door 4 Right Black
+props:props:1247, Door 4 Right Yellow
+props:props:1248, Door 4 Right Coral
+props:props:1249, Door 4 Right Cyan
+props:props:1250, Door 4 Right Gray
+props:props:1251, Door 5 Left
+props:props:1252, Door 5 Right
+props:props:1253, Rotary Phone
+props:props:1254, Upright Piano
+props:props:1255, Ingolf Chair White
+props:props:1256, Ingolf Chair Black
+props:props:1257, Ingolf Chair Light
+props:props:1258, Ingolf Chair Medium
+props:props:1259, Ingolf Chair Dark
+props:props:1260, Industrial Ceiling Lamp
+props:props:1261, Glass Desk
+props:props:1262, Industrial TV Stand White
+props:props:1263, Industrial TV Stand Black
+props:props:1264, Industrial TV Stand Light
+props:props:1265, Industrial TV Stand Medium
+props:props:1266, Industrial TV Stand Dark
+props:props:1267, Borje Chair White
+props:props:1268, Borje Chair White Dark Blue
+props:props:1269, Borje Chair White Orange
+props:props:1270, Borje Chair White Purple
+props:props:1271, Borje Chair White Blue
+props:props:1272, Borje Chair White Lime
+props:props:1273, Borje Chair White Green
+props:props:1274, Borje Chair White Fuchsia
+props:props:1275, Borje Chair White Light Blue
+props:props:1276, Borje Chair White Razzle
+props:props:1277, Borje Chair White Red
+props:props:1278, Borje Chair White Pink
+props:props:1279, Borje Chair White Black
+props:props:1280, Borje Chair White Yellow
+props:props:1281, Borje Chair White Coral
+props:props:1282, Borje Chair White Cyan
+props:props:1283, Borje Chair White Gray
+props:props:1284, Borje Chair Black
+props:props:1285, Borje Chair Black Dark Blue
+props:props:1286, Borje Chair Black Orange
+props:props:1287, Borje Chair Black Purple
+props:props:1288, Borje Chair Black Blue
+props:props:1289, Borje Chair Black Lime
+props:props:1290, Borje Chair Black Green
+props:props:1291, Borje Chair Black Fuchsia
+props:props:1292, Borje Chair Black Light Blue
+props:props:1293, Borje Chair Black Razzle
+props:props:1294, Borje Chair Black Red
+props:props:1295, Borje Chair Black Pink
+props:props:1296, Borje Chair Black Black
+props:props:1297, Borje Chair Black Yellow
+props:props:1298, Borje Chair Black Coral
+props:props:1299, Borje Chair Black Cyan
+props:props:1300, Borje Chair Black Gray
+props:props:1301, Borje Chair Light
+props:props:1302, Borje Chair Light Dark Blue
+props:props:1304, Borje Chair Light Orange
+props:props:1305, Borje Chair Light Purple
+props:props:1306, Borje Chair Light Blue
+props:props:1307, Borje Chair Light Lime
+props:props:1308, Borje Chair Light Green
+props:props:1309, Borje Chair Light Fuchsia
+props:props:1310, Borje Chair Light Light Blue
+props:props:1311, Borje Chair Light Razzle
+props:props:1312, Borje Chair Light Red
+props:props:1313, Borje Chair Light Pink
+props:props:1314, Borje Chair Light Black
+props:props:1315, Borje Chair Light Yellow
+props:props:1316, Borje Chair Light Coral
+props:props:1317, Borje Chair Light Cyan
+props:props:1318, Borje Chair Light Gray
+props:props:1319, Borje Chair Medium
+props:props:1320, Borje Chair Medium Dark Blue
+props:props:1321, Borje Chair Medium Orange
+props:props:1322, Borje Chair Medium Purple
+props:props:1323, Borje Chair Medium Blue
+props:props:1324, Borje Chair Medium Lime
+props:props:1325, Borje Chair Medium Green
+props:props:1326, Borje Chair Medium Fuchsia
+props:props:1327, Borje Chair Medium Medium Blue
+props:props:1328, Borje Chair Medium Razzle
+props:props:1329, Borje Chair Medium Red
+props:props:1330, Borje Chair Medium Pink
+props:props:1331, Borje Chair Medium Black
+props:props:1332, Borje Chair Medium Yellow
+props:props:1333, Borje Chair Medium Coral
+props:props:1334, Borje Chair Medium Cyan
+props:props:1335, Borje Chair Medium Gray
+props:props:1336, Borje Chair Dark
+props:props:1337, Borje Chair Dark Dark Blue
+props:props:1338, Borje Chair Dark Orange
+props:props:1339, Borje Chair Dark Purple
+props:props:1340, Borje Chair Dark Blue
+props:props:1341, Borje Chair Dark Lime
+props:props:1342, Borje Chair Dark Green
+props:props:1343, Borje Chair Dark Fuchsia
+props:props:1344, Borje Chair Dark Light Blue
+props:props:1345, Borje Chair Dark Razzle
+props:props:1346, Borje Chair Dark Red
+props:props:1347, Borje Chair Dark Pink
+props:props:1348, Borje Chair Dark Black
+props:props:1349, Borje Chair Dark Yellow
+props:props:1350, Borje Chair Dark Coral
+props:props:1351, Borje Chair Dark Cyan
+props:props:1352, Borje Chair Dark Gray
+props:props:1353, Industrial Chair
+props:props:1354, Industrial Chair Dark Blue
+props:props:1355, Industrial Chair Orange
+props:props:1356, Industrial Chair Purple
+props:props:1357, Industrial Chair Blue
+props:props:1358, Industrial Chair Lime
+props:props:1359, Industrial Chair Green
+props:props:1360, Industrial Chair Fuchsia
+props:props:1361, Industrial Chair Light Blue
+props:props:1362, Industrial Chair Razzle
+props:props:1363, Industrial Chair Red
+props:props:1364, Industrial Chair Pink
+props:props:1365, Industrial Chair Black
+props:props:1366, Industrial Chair Yellow
+props:props:1367, Industrial Chair Coral
+props:props:1368, Industrial Chair Cyan
+props:props:1369, Industrial Chair Gray
+props:props:1370, Industrial Sofa
+props:props:1371, Industrial Sofa Dark Blue
+props:props:1372, Industrial Sofa Orange
+props:props:1373, Industrial Sofa Purple
+props:props:1374, Industrial Sofa Blue
+props:props:1375, Industrial Sofa Lime
+props:props:1376, Industrial Sofa Green
+props:props:1377, Industrial Sofa Fuchsia
+props:props:1378, Industrial Sofa Light Blue
+props:props:1379, Industrial Sofa Razzle
+props:props:1380, Industrial Sofa Red
+props:props:1381, Industrial Sofa Pink
+props:props:1382, Industrial Sofa Black
+props:props:1383, Industrial Sofa Yellow
+props:props:1384, Industrial Sofa Coral
+props:props:1385, Industrial Sofa Cyan
+props:props:1386, Industrial Sofa Gray
+props:props:1387, Industrial FootLamp
+props:props:1388, Industrial FootLamp Dark Blue
+props:props:1389, Industrial FootLamp Orange
+props:props:1390, Industrial FootLamp Purple
+props:props:1391, Industrial FootLamp Blue
+props:props:1392, Industrial FootLamp Lime
+props:props:1393, Industrial FootLamp Green
+props:props:1394, Industrial FootLamp Fuchsia
+props:props:1395, Industrial FootLamp Light Blue
+props:props:1396, Industrial FootLamp Razzle
+props:props:1397, Industrial FootLamp Red
+props:props:1398, Industrial FootLamp Pink
+props:props:1399, Industrial FootLamp Black
+props:props:1400, Industrial FootLamp Yellow
+props:props:1401, Industrial FootLamp Coral
+props:props:1402, Industrial FootLamp Cyan
+props:props:1403, Industrial FootLamp Gray
+props:props:1404, Office Chair 3
+props:props:1405, Office Chair 3 Black
+props:props:1406, Tulip Vase
+props:props:1407, Tulip Vase Dark Blue
+props:props:1408, Tulip Vase Orange
+props:props:1409, Tulip Vase Purple
+props:props:1410, Tulip Vase Blue
+props:props:1411, Tulip Vase Lime
+props:props:1412, Tulip Vase Green
+props:props:1413, Tulip Vase Fuchsia
+props:props:1414, Tulip Vase Light Blue
+props:props:1415, Tulip Vase Razzle
+props:props:1416, Tulip Vase Red
+props:props:1417, Tulip Vase Pink
+props:props:1418, Tulip Vase Yellow
+props:props:1419, Tulip Vase Coral
+props:props:1420, Tulip Vase Cyan
+props:props:1421, Industrial Coffee Table Light
+props:props:1422, Industrial Coffee Table Medium
+props:props:1423, Industrial Coffee Table Dark
+props:props:1424, Industrial Table 1 Light
+props:props:1425, Industrial Table 1 Medium
+props:props:1426, Industrial Table 1 Dark
+props:props:1427, Industrial Table 2 Light
+props:props:1428, Industrial Table 2 Medium
+props:props:1429, Industrial Table 2 Dark
+props:props:1430, Hanging Lamp Short
+props:props:1431, Piano Stool
+props:props:1432, Patron Doll Oddles
+props:props:1433, Patron Doll Hazardrar
+props:props:1434, Patron Doll Cottonbaler
+props:props:1435, Patron Doll thatdesiree
 props:clay:0, Red Crafting Clay
 props:clay:1, Blue Crafting Clay
 props:clay:2, Green Crafting Clay
@@ -15353,6 +15795,18 @@ GraviSuite:itemSimpleItem:4, Magnetron
 GraviSuite:itemSimpleItem:5, Vajra Core
 GraviSuite:itemSimpleItem:6, Engine Booster
 guideapi:ItemLostPage:0, Lost Page
+HardcoreQuesting:quest_book, item.hqm:quest_book.name
+HardcoreQuesting:hearts:0, Quarter of a heart
+HardcoreQuesting:hearts:1, Half a heart
+HardcoreQuesting:hearts:2, Three quarters of a heart
+HardcoreQuesting:hearts:3, Full heart
+HardcoreQuesting:hearts:4, Rotten heart
+HardcoreQuesting:bags:0, Reward Bag
+HardcoreQuesting:bags:1, Reward Bag
+HardcoreQuesting:bags:2, Reward Bag
+HardcoreQuesting:bags:3, Reward Bag
+HardcoreQuesting:bags:4, Reward Bag
+HardcoreQuesting:hqmInvalidItem, Invalid Item
 immersiveintegration:iiWireCoil:0, Redstone Wire Coil
 immersiveintegration:capacitorBox:0, LV Capacitor in a Box
 immersiveintegration:capacitorBox:0, LV Capacitor in a Box
@@ -17869,11 +18323,11 @@ ThermalDynamics:cover:0, Fence Gate Cover
 ThermalDynamics:cover:0, Water Spring Cover
 ThermalDynamics:cover:0, Oil Spring Cover
 ThermalDynamics:cover:0, tile.buildToolBlock.name Cover
-ThermalDynamics:cover:0, Frame Cover
+ThermalDynamics:cover:0, Mining Pipe Cover
 ThermalDynamics:cover:0, Oil Cover
 ThermalDynamics:cover:0, Fuel Cover
 ThermalDynamics:cover:0, tile.blockRedPlasma.name Cover
-ThermalDynamics:cover:0, Mining Pipe Cover
+ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Creosote Cover
 ThermalDynamics:cover:0, Steam Cover
 ThermalDynamics:cover:0, Block of Coal Coke Cover
@@ -20067,25 +20521,25 @@ ThermalDynamics:cover:0, Compressed Dirt Cover
 ThermalDynamics:cover:0, Compressed Flint Cover
 ThermalDynamics:cover:0, Compressed Stone Cover
 ThermalDynamics:cover:0, Compressed Netherrack Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, Paving Stair of Travel Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
 ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
