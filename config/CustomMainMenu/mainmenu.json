@@ -279,7 +279,7 @@
             "alignment" : "bottom_left"
 		},
 		"newsLine1":{
-			"text" : "Expert Mode coming soon on Minecraft 1.11",
+			"text" : "",
             "posX" : 10,
             "posY" : 10,
 			"fontSize" : 1.3,
