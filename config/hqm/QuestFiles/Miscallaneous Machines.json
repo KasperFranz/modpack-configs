@@ -102,7 +102,7 @@
       "name": "Mass Storage",
       "description": "The Drawer Controller allows you to access every single connected Storage Drawer from sources like the Inventory Panel, ME Storage Bus, or just right clicking the controller with a hand to fill connected drawers.",
       "x": 29,
-      "y": 73,
+      "y": 72,
       "icon": {
         "id": "StorageDrawers:controller"
       },
@@ -141,6 +141,7 @@
         {
           "type": "DETECT",
           "description": "Make an Extractor",
+          "longDescription": "In addition to giving more Rubber, the Extractor can turn Clay/Brick/Snow blocks into 4 of their item, remove the dye from Wool, and several other things.",
           "items": [
             {
               "item": {
@@ -321,7 +322,7 @@
       "name": "Diggier Diggier Hole",
       "description": "The Diamond Drill works almost identically to the regular Mining Drill, except is faster and can mine Obsidian-level blocks.",
       "x": 29,
-      "y": 190,
+      "y": 163,
       "icon": {
         "id": "IC2:itemToolDDrill",
         "damage": 26
@@ -351,7 +352,7 @@
       "name": "Diggy Diggy Hole",
       "description": "The Mining Drill is a relatively early-game, well, mining drill. You mine with it. The Mining Drill does not use durability, it uses EU. Charge it in a BatBox or something else that charges.",
       "x": 29,
-      "y": 161,
+      "y": 192,
       "icon": {
         "id": "IC2:itemToolDrill",
         "damage": 1,
@@ -387,22 +388,10 @@
       },
       "prerequisites": [
         "{Actually Better Than Iron}[Cut\u0027N\u0027Chop]",
-        "{Actually Better Than Iron}[Bound to Your Will]"
+        "{Actually Better Than Iron}[Bound to Your Will]",
+        "{Actually Better Than Iron}[The \"The Vat\"]"
       ],
       "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Make The Vat",
-          "longDescription": "The Vat is where Nutrient Distillation is created. Pump in water, make sure it has RF, and then check the recipes for the best way you can make Nutrient Distillation depending on what you have at the time.",
-          "items": [
-            {
-              "item": {
-                "id": "EnderIO:blockVat"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        },
         {
           "type": "DETECT",
           "description": "Make the Inventory Panel",
@@ -477,7 +466,7 @@
         {
           "type": "DETECT",
           "description": "Ender Quarry Update Base",
-          "longDescription": "Blocks mined are not destroyed, but replaced with Dirt. This is great for preventing lag, as no lighting or fluid updates are made whatsoever. If there is no inventory to push into, or if that inventory is full, the quarry will temporarily stop until there is room to push items into. For this reason, it is best to automate pulling items out of the quarry. Ender Chests are great for this, as you can have one Ender Chest at your Quarry, and the other at your ore processing.",
+          "longDescription": "Blocks mined are not destroyed, but replaced with Dirt. This is great for preventing lag, as no lighting or fluid updates are made whatsoever. If there is no inventory to push into, or if that inventory is full, the quarry will temporarily stop until there is room to push items into. For this reason, it is best to automate pulling items out of the quarry. Ender Chests are great for this, as you can have one Ender Chest at your Quarry, and the other at your ore processing. Be careful what upgrades you put on the Ender Quarry, they can increase the RF cost by an extremely high amount.",
           "items": [
             {
               "item": {
@@ -620,8 +609,8 @@
     {
       "name": "Arm\u0027s Length, Please",
       "description": "The MFR Grinder instantly kills regular mobs like Creepers, Skeletons, Zombies, and Wither Skeletons. It uses RF to run, and each mob kill produces some Mob Essence.",
-      "x": 292,
-      "y": 15,
+      "x": 281,
+      "y": 164,
       "icon": {
         "id": "MineFactoryReloaded:machine.0",
         "damage": 13
@@ -673,13 +662,19 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:item.darkSteel_sword",
+          "nbt": "{ench:[0:{lvl:2s,id:34s},1:{lvl:1s,id:21s}]}"
+        }
       ]
     },
     {
       "name": "Safari Zone",
       "description": "The Auto-Spawner uses RF and Mob Essence to spawn the mob inside of the Safari Net. ",
-      "x": 292,
-      "y": 47,
+      "x": 293,
+      "y": 185,
       "icon": {
         "id": "MineFactoryReloaded:machine.1",
         "damage": 9
@@ -725,8 +720,8 @@
     {
       "name": "Capacitative Spawning",
       "description": "The Powered Spawner is, well, an RF-powered spawner. To set the mob, you have to combine it with a Broken Spawner (which is gotten by mining a Spawner) in an Anvil, which takes about 30 levels.",
-      "x": 291,
-      "y": 79,
+      "x": 269,
+      "y": 185,
       "icon": {
         "id": "EnderIO:blockPoweredSpawner"
       },
@@ -766,8 +761,8 @@
     {
       "name": "Drill From the Heavens",
       "description": "The Laser Drill doesn\u0027t actually mine, per se. Instead, it essentially turns RF into ores. There are some slots that you can put colored Laser Focii to increase the chance of getting certain ores. Hit U on the Focii to see which ores they increase the chance of getting.",
-      "x": 140,
-      "y": 193,
+      "x": 141,
+      "y": 191,
       "icon": {
         "id": "MineFactoryReloaded:machine.2"
       },
@@ -778,7 +773,7 @@
         {
           "type": "DETECT",
           "description": "Make a Laser Precharger",
-          "longDescription": "The RF does not go directly into the Laser Drill. Instead it goes into the Laser Drill Prechargers, which shoot into the Laser Drill. Place up to 4 around the Laser Drill with 1 block away, so that the side with the hole is facing the Laser Drill. Don\u0027t get into the beam, it stings!",
+          "longDescription": "The RF does not go directly into the Laser Drill. Instead it goes into the Laser Drill Prechargers, which shoot into the Laser Drill. Place up to 4 around the Laser Drill with 1 empty block between so that the side with the hole is facing the Laser Drill. Don\u0027t get into the beam, it stings!",
           "items": [
             {
               "item": {
@@ -840,8 +835,7 @@
         "id": "Aroma1997sDimension:portalIgniter"
       },
       "prerequisites": [
-        "Who Took My Mountain?",
-        "Ctrl X Ctrl V"
+        "{Actually Better Than Iron}[The Brotherhood of Steel]"
       ],
       "tasks": [
         {
@@ -942,7 +936,7 @@
       ]
     },
     {
-      "name": "Coated in Redstone",
+      "name": "Red-Soaked",
       "description": "Redstone Arsenal adds RF-powered tools and armor based around Thermal Expansion. ",
       "x": 85,
       "y": 73,
@@ -1002,7 +996,7 @@
         "damage": 5
       },
       "prerequisites": [
-        "Coated in Redstone",
+        "Red-Soaked",
         "Almost Best Flying",
         "Unnamed5"
       ],
@@ -1027,8 +1021,8 @@
     {
       "name": "Immersive Energy Storage",
       "description": "Storing energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.",
-      "x": 86,
-      "y": 192,
+      "x": 85,
+      "y": 191,
       "icon": {
         "id": "ImmersiveEngineering:metalDevice",
         "damage": 1
@@ -1056,8 +1050,8 @@
     {
       "name": "For the Birds",
       "description": "Immersive Engineering\u0027s Wire Coils, while being excellently stylish, also serve to transfer RF and EU. It will also convert them! 1 EU is equal to 4 RF.",
-      "x": 113,
-      "y": 193,
+      "x": 114,
+      "y": 191,
       "icon": {
         "id": "ImmersiveEngineering:coil",
         "damage": 1
@@ -1086,6 +1080,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:coil",
+          "amount": 3
         }
       ]
     },

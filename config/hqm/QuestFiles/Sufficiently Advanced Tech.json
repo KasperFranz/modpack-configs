@@ -24,6 +24,12 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemManaBean",
+          "amount": 8
+        }
       ]
     },
     {
@@ -46,6 +52,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:fertilizer",
+          "amount": 8
         }
       ]
     },
@@ -73,6 +85,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:fertilizer",
+          "amount": 8
         }
       ]
     },
@@ -138,6 +156,17 @@
             }
           ]
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:fertilizer",
+          "amount": 16
+        },
+        {
+          "id": "Botania:blackLotus",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"1/10 of a Mana Pool\"}}"
+        }
       ]
     },
     {
@@ -166,6 +195,33 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make a Research Table",
+          "longDescription": "The Research Table is how you learn how to make most Thaumcraft blocks and items. You have to unlock Research Notes in the Thaumonomicon using aspect points you get by scanning blocks, items, and especially Nodes using the Thaumometer. You have to scan things in a certain order. To make the Research table, place to Tables next to eachother and right-click with Scribing Tools. These will be used up as you do the research minigame (see the Thaumonomicon for details), and refill it with Ink Sacs to continue using them.",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemInkwell"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 18
         }
       ]
     },
@@ -194,6 +250,16 @@
             }
           ]
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:fumefunnel"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 27,
+          "amount": 16
+        }
       ]
     },
     {
@@ -211,7 +277,7 @@
         {
           "type": "DETECT",
           "description": "Set up the Altar",
-          "longDescription": "The Altar is a 3x2x1 multiblock",
+          "longDescription": "The Altar is a 3x2x1 multiblock, totalling 6 blocks.",
           "items": [
             {
               "item": {
@@ -261,6 +327,13 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8225,
+          "amount": 3
         }
       ]
     },
@@ -328,6 +401,7 @@
         {
           "type": "DETECT",
           "description": "Make the Kettle",
+          "longDescription": "The Kettle can have water pumped into it automatically. You can get a chance of extras by wearing Witches\u0027 clothes.",
           "items": [
             {
               "item": {
@@ -341,7 +415,7 @@
     {
       "name": "Moonshine and Sunshine",
       "description": "The Distillery is yet another crafting mechanic from Witchery. It uses Altar Power to function, so it must be placed near an Altar with sufficient Altar Power.",
-      "x": 88,
+      "x": 89,
       "y": 105,
       "icon": {
         "id": "witchery:distilleryidle"
@@ -416,6 +490,13 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Botania:blackLotus",
+          "damage": 1,
+          "amount": 4
+        }
       ]
     },
     {
@@ -450,6 +531,20 @@
             }
           ]
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"strength\"}"
+        },
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"regen\"}"
+        },
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"resistance\"}"
+        }
       ]
     },
     {
@@ -479,6 +574,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 5
         }
       ]
     },

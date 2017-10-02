@@ -31,7 +31,7 @@
     },
     {
       "name": "Energy Conversion",
-      "description": "An ME System does not use RF or EU, but AE. You can convert RF and EU into AE by connecting it into the Enegy Acceptor and piping it out with Fluix Cables.",
+      "description": "An ME System does not use RF or EU, but AE. You can convert RF and EU into AE by connecting it into the Enegy Acceptor and piping it out with Fluix Cables. You can also supply power through the ME Controller, but then that is one less side you can pull channels from.",
       "x": 184,
       "y": 28,
       "icon": {

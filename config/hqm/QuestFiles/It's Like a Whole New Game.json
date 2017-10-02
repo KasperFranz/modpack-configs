@@ -34,7 +34,7 @@
     },
     {
       "name": "Tinkering",
-      "description": "Vanilla tools above stone (aside from hoes) are useless except for crafting recipes. You want to use Tinkers\u0027 Construct mostly. However, without a Smeltery, you can only use flint or other non-metallic tools. These are the blocks required to make Tinkers\u0027 tools. Don\u0027t spend too much making these, as they will be made obsolete by metal tools once those are made available.",
+      "description": "Vanilla tools above stone (aside from hoes) are useless except for crafting recipes. You want to use Tinkers\u0027 Construct mostly. However, without a Smeltery, you can only use flint or other non-metallic tools. These are the blocks required to make Tinkers\u0027 tools. Don\u0027t spend too much making these, as they will be made obsolete by metal tools once those are made available. These quests REQUIRE the oak variants to be completed.",
       "x": 86,
       "y": 62,
       "icon": {
@@ -116,7 +116,7 @@
         {
           "type": "CRAFT",
           "description": "Ball of Moss",
-          "longDescription": "Craft a Ball of Moss",
+          "longDescription": "You can use a Chisel to turn Stone Bricks into Mossy Stone Bricks and use those!",
           "items": [
             {
               "item": {
@@ -143,7 +143,7 @@
         {
           "type": "DETECT",
           "description": "Make a Smeltery",
-          "longDescription": "For the average 3x3x1 interior Smeltery, you need a total of 104 Seared Bricks (the item). That amounts to 52 Sand, 52 Gravel, and 52 Clay.",
+          "longDescription": "For the average 3x3x1 interior Smeltery, you need a total of 104 Seared Bricks (the item). That amounts to 104 (64+40) Sand, Gravel, and Clay.",
           "items": [
             {
               "item": {
@@ -250,7 +250,7 @@
     },
     {
       "name": "Infinite Cosmic Power!",
-      "description": "Itty-bitty generation speed. The Survivalist Generator is incredibly slow, but fuel efficient. It\u0027s also probably the only thing you can make right now, so you\u0027ve gotta deal with it for a while.",
+      "description": "Itty-bitty generation speed. The Survivalist Generator is incredibly slow, but fuel efficient. It\u0027s also probably the only thing you can make right now, so you\u0027ve gotta deal with it for a while. To use Extra Utilities generators, you have to use IE Wire Coils or TE Fluxducts to transfer the RF; you can\u0027t just put the generator down next to the machine.",
       "x": 175,
       "y": 144,
       "icon": {
@@ -263,7 +263,7 @@
         {
           "type": "CRAFT",
           "description": "Make a Survivalist Generator",
-          "longDescription": "A single chunk of Coal in this bad boy will make you 80,000RF total, but at only 5RF/t. 20t in a second means that\u0027s 100RF/s. Not a whole lot, but it\u0027s workable for now.",
+          "longDescription": "A single chunk of Coal in this bad boy will make you 80,000RF total, but at only 5RF/t. 20t in a second means that\u0027s 100RF/s. Not a whole lot, but it\u0027s workable for now. It\u0027s a good idea to use this to fill a Capacitor slowly instead of directly feeding machines, as it likely won\u0027t keep up with its RF demands.",
           "items": [
             {
               "item": {
@@ -272,6 +272,13 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "damage": 1,
+          "amount": 8
         }
       ]
     },
@@ -367,6 +374,11 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "IC2:blockMachine"
+        }
       ]
     },
     {
@@ -397,7 +409,7 @@
         {
           "type": "DETECT",
           "description": "Get a Laser",
-          "longDescription": "Lasers provide power to the Assembly Table and similar machines. Place the Laser down by the machine and connect the Laser to RF. It will shoot a laser beam charged with RF to the machine. More lasers \u003d more RF/t.",
+          "longDescription": "Lasers provide power to the Assembly Table and similar machines. Place the Laser down by the machine and connect the Laser to a source of RF. It will shoot a laser beam charged with RF to the machine. More lasers \u003d more RF/t \u003d faster assembly.",
           "items": [
             {
               "item": {

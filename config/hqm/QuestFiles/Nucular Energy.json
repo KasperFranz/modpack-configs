@@ -152,7 +152,7 @@
         },
         {
           "type": "DETECT",
-          "description": "Make a Scanner+Pattern Storage",
+          "description": "Scanner+Pattern Storage",
           "longDescription": "The Scanner breaks down an item or block and puts it\u0027s pattern into a Pattern Storage block touching it.",
           "items": [
             {
@@ -212,6 +212,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemScrapbox",
+          "amount": 16
         }
       ]
     },
@@ -293,6 +299,12 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "IC2:blockAlloy",
+          "amount": 8
+        }
       ]
     },
     {
@@ -310,6 +322,7 @@
         {
           "type": "DETECT",
           "description": "Get the Depleted Uranium",
+          "longDescription": "Once a Nuclear Reactor has been running for long enough, the Fuel Rods will become Depleted. Depleted Fuel Rods do not generate EU in the Reactor, and only serve to be put back into the Thermal Centrifuge.",
           "items": [
             {
               "item": {
@@ -390,6 +403,7 @@
         {
           "type": "DETECT",
           "description": "Make MOX Nuclear Fuel",
+          "longDescription": "Depleted MOX Fuel Rods give more Plutonium than Uranium Fuel Rods do.",
           "items": [
             {
               "item": {
@@ -402,7 +416,7 @@
     },
     {
       "name": "I, Ridium",
-      "description": "Iridium is probably the hardest item to get at this part of the game. It needs 80M RF, plus 1 Pellet of RTG Fuel and a MOX Nuclear Fuel. Once you have one, I recommend using the Replicator to get more instead of making it out of the MOX and RTG.",
+      "description": "Iridium is probably the hardest item to get at this part of the game. It needs 80M RF, plus 1 Pellet of RTG Fuel and a MOX Nuclear Fuel. You definitely want to use tons of Lasers for this, rather than just having 6. Once you have one, I recommend using the Replicator to get more instead of making it out of the MOX and RTG.",
       "x": 125,
       "y": 156,
       "icon": {
