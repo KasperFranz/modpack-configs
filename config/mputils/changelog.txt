@@ -1,3 +1,12 @@
+									§4 3.0.15 Changelog
+* §6Updated Chest Transporter which allows Tinkers' Construct part and pattern chests to be moved
+* Updated More Chickens; If you experienced the bug with game crashing because of chickens it was an issue with IDs
+* §6Enabled "Force Threaded Chunk Rendering" by default in the Forge Client config. This should increase FPS significantly for a number of users. If it does happen to cause you a decrease in performance for any reason, locate the config/forge.cfg file and change the option to "false"
+* The Extra Utilities crash from inserting upgrades into a transfer node should now be fixed
+* §6Thanks to DubstepDentist for making the loading screen gif!
+
+------------------------------------------------------------------	
+
 									§4 3.0.14 Changelog
 * §6Updated SonarCore and Flux Networks to allow wireless power transfer between machines/blocks that were not previously working
 * Added the Energy Converters mod to help alleviate issues between mods using different incompatible energy types

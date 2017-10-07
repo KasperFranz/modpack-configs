@@ -22,12 +22,6 @@
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
         "Min Group Count": 1,
@@ -747,12 +741,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
         "Weight": 10,
         "Min Group Count": 3,
@@ -879,12 +867,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
         "Weight": 10,
         "Min Group Count": 3,
@@ -987,12 +969,6 @@
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
       {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
@@ -1123,12 +1099,6 @@
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
         "Weight": 10,
         "Min Group Count": 3,
@@ -1200,14 +1170,7 @@
       "END"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      }
-    ],
+    "Spawnable Creatures": [],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
@@ -1244,18 +1207,6 @@
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
       {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
@@ -1385,18 +1336,6 @@
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
       {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
@@ -1539,12 +1478,6 @@
       {
         "Entity Class": "net.minecraft.entity.monster.EntityPolarBear",
         "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
       },
@@ -1692,12 +1625,6 @@
       {
         "Entity Class": "net.minecraft.entity.monster.EntityPolarBear",
         "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
       },
@@ -2414,12 +2341,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
         "Weight": 10,
         "Min Group Count": 3,
@@ -3065,12 +2986,6 @@
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
       {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
         "Min Group Count": 1,
@@ -3296,18 +3211,6 @@
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
       {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
         "Weight": 12,
@@ -3869,12 +3772,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -4006,12 +3903,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -4141,12 +4032,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -4277,12 +4162,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -6094,12 +5973,6 @@
         "Weight": 8,
         "Min Group Count": 4,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -6209,12 +6082,6 @@
       {
         "Entity Class": "net.minecraft.entity.monster.EntityPolarBear",
         "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
       },
@@ -7024,12 +6891,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
